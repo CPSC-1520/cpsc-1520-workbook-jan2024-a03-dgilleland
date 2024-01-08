@@ -1,0 +1,37 @@
+[
+    {
+        "group": "Assessments",
+        "description": "Practical Assessments (take-home)",
+        "items": [
+            { "name": "Assessment 1", "weight": 10 , "possibleMarks": 29 },
+            { "name": "Assessment 2", "weight": 10 , "possibleMarks": 27 },
+            { "name": "Assessment 3", "weight": 10 , "possibleMarks": 20 }
+        ]
+    },
+    {
+        "group": "Labs",
+        "description": "In-Class Labs (24 hour access)",
+        "items": [
+            { "name": "Lab 1", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Lab 2", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Lab 3", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Lab 4", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Lab 5", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Lab 6", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Lab 7", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Lab 8", "weight": 5 , "possibleMarks": 5 }
+        ]
+    },
+    {
+        "group": "Quizzes",
+        "description": "Online Quizzes (Moodle)",
+        "items": [
+            { "name": "Quiz 1", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Quiz 2", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Quiz 3", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Quiz 4", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Quiz 5", "weight": 5 , "possibleMarks": 5 },
+            { "name": "Quiz 6", "weight": 5 , "possibleMarks": 6 }
+        ]
+    }
+]
