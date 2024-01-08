@@ -6,7 +6,8 @@ Your first learning adventure should begin with [**Mastering Markdown**](https:/
 
 ## Table of Contents
 
-> *Create an un-ordered list here for your own table of contents, and add links to additional Markdown pages in this folder.*
+- [**Journal**](./Journal.md)
+- [`git` commands](./git-commands.md)
 
 ----
 
