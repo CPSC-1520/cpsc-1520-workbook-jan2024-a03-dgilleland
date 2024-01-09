@@ -6,18 +6,19 @@ This **`src`** folder is where you will place practice and demo material for eac
 
 If there is a sample in your instructor's workbook that you want to pull into your own workbook, the easiest way to do that is through a Node package called [**tiged**](https://github.com/tiged/tiged#readme). Here's an example of how to use it to [grab a subdirectory](https://github.com/tiged/tiged#specify-a-subdirectory) from your instructor's workbook:
 
+> ***Note:** The following is based on using the `pnpm dlx` command. If you are using regular node/npm, you should use `npx` instead of `pnpm dlx`.*
+
 ```bash
-$ npx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/demo-events ./src/008/demo-events
-//\_______________________________/ \_______________________________________________/ \___________________/
+$ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/demo-events ./src/008/demo-events
+//\____________________________________/ \_______________________________________________/ \___________________/
 //      |- Command to run               |- Instructor's source folder (on GitHub)        |- Your local destination folder
 ```
-
 
 A more detailed explanation of the command would look like this:
 
 ```bash
-$ npx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/demo-events ./src/008/demo-events
-//\_/ \___/ \_____________/ \_____/ \_______/ \_________________/ \_________________/ \___________________/
+$ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/demo-events ./src/008/demo-events
+//\______/ \___/ \_____________/ \_____/ \_______/ \_________________/ \_________________/ \___________________/
 // |    |          |          |       |             |                     |                     |- Destination folder
 // |    |          |          |       |             |                     |- Instructor's sub-folder
 // |    |          |          |       |             |- Name of Instructor's Repo
@@ -25,7 +26,7 @@ $ npx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/demo-e
 // |    |          |          |- Force overwrite of existing files
 // |    |          |- Disable caching of repo (so you grab the latest version)
 // |    |- Command to run
-// |- npx is a Node package runner (comes with Node)
+// |- pnpm dlx is a Node package runner (alternative to npx)
 ```
 
 ----
