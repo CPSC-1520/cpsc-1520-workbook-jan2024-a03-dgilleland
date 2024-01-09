@@ -22,6 +22,7 @@
 
 ## Jan 12
 
+- [ ] In-Class #1 (**for marks**)
 - *TBA*
 
 ----
