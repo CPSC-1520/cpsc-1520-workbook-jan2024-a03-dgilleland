@@ -1,6 +1,63 @@
 # CPSC-1520 - **~~Student~~ Instructor Workbook** (Jan 2024)
 
-> **Dan Gilleland** - Place your name in this line.
+> **Dan Gilleland**
+
+## Schedule
+
+> The following schedule is subject to change. Consult the course outline for the mark distribution. See the [Agenda](./Agenda.md) for details on upcoming and completed topics.
+>
+> **Also Note:** There is a new document regarding the [**Reading Assignments for *Moodle Quizzes***](./docs/ReadingAssessments.md). Also note the schedule for the quizzes, as access to the quizzes may be cut off once we are past the due date for the quiz.
+
+```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    title       CPSC-1520 | Scheduled Topics & Assessments
+    %% excludes    weekends
+    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+
+    section Topics
+    %% done - for finished tasks
+    %% active - for current tasks
+    %% crit - for red outline/background
+    Intro, git & Workbook     :active,  part0, 2024-01-09, 2024-01-11
+    Intro to JavaScript       :         part1, 2024-01-12, 1d
+    Functions and Events      :         part2, after part1, 14d
+    Making Decisions          :         part3, after part2, 7d
+    Loops and Arrays          :         part4, after part3, 14d
+    Reading Break             :         break, 2024-02-17, 2024-02-25
+    JS Object Fundamentals    :         part5, after break, 11d
+    Fetch Fundamentals        :         part6, after part5, 7d
+    DOM API & Timers          :         part7, after part6, 7d
+    NPM, Tools, ES Modules    :         part8, after part7, 14d
+    Class, Object, Prototypes :         part9, after part8, 14d
+    Extra Topics              :         end, after part9, 7d 
+
+    section In-Class Labs/Exercises
+    Lab 1, Jan 12  :     milestone, 2024-01-12, 0d
+    Lab 2, Jan 19  :     milestone, 2024-01-19, 0d
+    Lab 3, Jan 26  :     milestone, 2024-01-26, 0d
+    Lab 4, Feb 02  :     milestone, 2024-02-02, 0d
+    Lab 5, Feb 16  :     milestone, 2024-02-16, 0d
+    Lab 6, Mar 22  :     milestone, 2024-03-22, 0d
+    Lab 7, Apr 05  :     milestone, 2024-04-05, 0d
+    Lab 8, Apr 24  :     milestone, 2024-04-24, 0d
+
+    section Quizzes
+    Quiz 1, Jan 19 :  milestone, 2024-01-19, 0d
+    Quiz 2, Feb 02 :  milestone, 2024-02-02, 0d
+    Quiz 3, Mar 01 :  milestone, 2024-03-01, 0d
+    Quiz 4, Mar 29 :  milestone, 2024-03-29, 0d
+    Quiz 5, Apr 12 :  milestone, 2024-04-12, 0d
+    Quiz 6, Apr 26 :  milestone, 2024-04-26, 0d
+
+    section Take-Home Assessments
+    Assessment 1, due Feb 16 : 2024-02-09, 2024-02-16
+    Assessment 2, due Mar 29 : 2024-03-22, 2024-03-29
+    Assessment 3, due Apr 24 : 2024-04-17, 2024-04-24
+
+```
+
+----
 
 ## ![Inside This Repo](./docs/images/level.png) Inside this repository
 
