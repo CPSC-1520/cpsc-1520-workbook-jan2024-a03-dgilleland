@@ -31,7 +31,7 @@ Before beginning this walkthrough, you should know how to take screenshots. One 
 
 ----
 
-> *[Images Here]*
+> ![](./images/demo-querySelector.png)
 
 ----
 
