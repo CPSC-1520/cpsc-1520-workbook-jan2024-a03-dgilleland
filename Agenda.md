@@ -22,6 +22,16 @@
 ## Jan 10
 
 - [003](./src/003/ReadMe.md)
+- Characteristics of JavaScript
+  - case-sensitive
+  - **not** a type-safe language
+  - looks a lot like C#, but has a number of differences
+  - string literals can be wrapped in double or single quotes
+- The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
+- Node also provides/is a REPL for JavaScript
+- **Homework:**
+  - [ ] Complete the 003/practice
+  - [ ] Start the About and GitDoc assignments on Teams
 
 ## Jan 12
 
