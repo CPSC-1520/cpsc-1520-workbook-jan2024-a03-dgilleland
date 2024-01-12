@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 004</title>
+    <script>
+        console.log('Inside the <head> - BEFORE loading scripts');
+    </script>
+    <script src="./first.js"></script>
+    <script src="./second.js" type="module" defer></script>
+    <script>
+        console.log('Inside the <head> - after loading scripts');
+    </script>
+</head>
+<body>
+    <h1>Emmet for HTML/JS/CSS</h1>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <script>
+        console.log('Inside the <body> - after rendering some of the body, but before the <p> tags are rendered');
+    </script>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam enim aperiam modi, cum nesciunt nisi itaque explicabo molestias unde minus, excepturi cumque labore earum sequi amet maxime quisquam nemo temporibus.</p>
+    <p>Autem repudiandae, iure facere consequuntur odio cum laudantium ratione expedita, et mollitia laboriosam non cupiditate facilis aperiam? Debitis accusantium veniam sapiente, consectetur sed omnis illum. Ratione voluptate laboriosam eius pariatur.</p>
+    <p>Voluptates pariatur quod, officiis odio ab amet quo sapiente omnis placeat dignissimos perferendis, sunt sint, cum debitis provident eveniet officia temporibus sit animi nulla asperiores autem. Nemo veritatis maiores odit.</p>
+</body>
+</html>
