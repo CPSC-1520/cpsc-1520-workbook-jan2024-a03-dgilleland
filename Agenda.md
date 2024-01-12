@@ -35,11 +35,15 @@
 
 ## Jan 12
 
-- [ ] In-Class #1 (**for marks**)
-- *TBA*
-
+- [ ] Today's Lesson(s)
+  - Complete [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
+    - HTML & Emmet in VS Code
+    - Link a JavaScript file
+  - Begin [005](./src/005/ReadMe.md)
+    - Review [its LOGs](./src/005/LOGs.md)
 ----
 
 ## Jan 15 (W02)
 
+- [ ] In-Class #1 (**for marks**)
 - *TBA*
