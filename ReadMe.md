@@ -33,7 +33,7 @@ gantt
     Extra Topics              :         end, after part9, 7d 
 
     section In-Class Labs/Exercises
-    Lab 1, Jan 12  :     milestone, 2024-01-12, 0d
+    Lab 1, Jan 15  :     milestone, 2024-01-15, 0d
     Lab 2, Jan 19  :     milestone, 2024-01-19, 0d
     Lab 3, Jan 26  :     milestone, 2024-01-26, 0d
     Lab 4, Feb 02  :     milestone, 2024-02-02, 0d
