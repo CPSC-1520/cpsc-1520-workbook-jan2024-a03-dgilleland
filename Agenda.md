@@ -41,11 +41,14 @@
     - Link a JavaScript file
   - Begin [005](./src/005/ReadMe.md)
     - Review [its LOGs](./src/005/LOGs.md)
-  - Practice Assignments
 
 ----
 
 ## Jan 15 (W02)
 
+- [ ] Practice Assignments
+  - About Me
+  - GitDoc Usage
+  - GitDoc Typing Profile
 - [ ] In-Class #1 (**for marks**)
 - *TBA*
