@@ -1,21 +1,26 @@
-# JavaScript in the Browser (LOGs)
+# (003) JavaScript in the Browser (LOGs)
 
 *At the end of this lesson, you should be able to...*
 
-- [ ] Access the developer tools in the Chrome browser
-- [ ] Describe what is meant by a "case-sensitive" programming language
-- [ ] Describe the terms "keyword", "operator", "variable" and "grammar" as they relate to programming languages in general
-- [ ] Define the acronym DOM
+- [x] Access the developer tools in the Chrome browser
+- [x] Explain what is meant by stating that the Console tab in the browser's developer tools is a "REPL"
+  - A REPL is a Read-Evaluate-Print-Loop. It is a programming environment that allows you to enter code, have it executed, and see the results immediately. The console in the browser's developer tools is a REPL in that we can enter JavaScript code, have it executed, and see the results immediately.
+- [x] Describe what is meant by a "case-sensitive" programming language
+- [x] Describe the terms ["keyword"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords), "operator", ["identifier"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#identifiers),  "variable" and "grammar" as they relate to programming languages in general
+- [ ] List the [reserved words](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#reserved_words) that cannot be used as identifiers for variables, functions, classes, etc. in JavaScript
+- [ ] List and categorize the different types of [Statements and Declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements) in JavaScript
+- [ ] Distinguish between [statements and declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements#difference_between_statements_and_declarations) in JavaScript
+- [x] Define the acronym DOM
 - [ ] Define the acronym API
-- [ ] Describe the purpose of the `document` object
-- [ ] Describe what the DOM API provides to JavaScript in the browser
+- [x] Describe the purpose of the `document` object
+- [x] Describe what the DOM API provides to JavaScript in the browser
 - [ ] Demonstrate basic DOM selector methods
 - [ ] Describe the terms "object", "property" and "method" as they relate to JavaScript
 - [ ] Describe the purpose of the "Member Access Operator" (`.`) in JavaScript
 - [ ] Demonstrate how to use the `.innerHTML` property of `HTMLElement` objects, including how to modify the DOM structure using this property
-- [ ] Execute simple JavaScript statements in the console
-- [ ] Demonstrate how to declare variables in the developer tools console
-- [ ] Demonstrate how to assign values to variables in the developer tools console
+- [x] Execute simple JavaScript statements in the console
+- [x] Demonstrate how to declare variables in the developer tools console
+- [x] Demonstrate how to assign values to variables in the developer tools console
 
 
 ----
