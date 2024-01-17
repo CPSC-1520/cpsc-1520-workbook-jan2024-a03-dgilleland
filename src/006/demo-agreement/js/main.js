@@ -8,3 +8,31 @@
 
 	Use the skills you have learned up to this point.
 */
+let receiving = prompt("Enter the receiving party's name");
+let disclosing = prompt("Enter the disclosing party's name");
+let theDate = prompt("Enter the date");
+
+// String interpolation in ES6
+// - Use backticks ` to wrap the string
+// - Use ${} to insert variables/expressions
+
+// Version 1.0.0
+// document.querySelector('.receiving-party').innerHTML = `<b>${receiving}</b>`;
+document.querySelector('.disclosing-party').innerHTML = `<b>${disclosing}</b>`;
+document.querySelector('.date').innerHTML = `<b>${theDate}</b>`;
+
+// Version 1.0.1
+// My callback function
+//  name of the function: setReceiver
+//     |             signature of the function
+//     |________     |__________
+//    /         \   /           \
+const setReceiver = function(el, index, array, otherStuff) {
+	el.innerHTML = `<b>${receiving}</b>`;
+	// console.log(el, index, array);
+	console.log(otherStuff);
+}
+
+document // my whole document
+	.querySelectorAll('.receiving-party') // []
+	.forEach(setReceiver);                // Callback function
