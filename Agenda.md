@@ -52,3 +52,8 @@
   - GitDoc Typing Profile
 - [ ] In-Class #1 (**for marks**)
 - *TBA*
+
+## Jan 17
+
+- [ ] Discussion about the importance of Academic **Honesty** and the dangers of Academic Dishonesty
+
