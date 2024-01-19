@@ -7,7 +7,8 @@
 - [ ] Describe the essential parts of a function declaration
   - A function declaration must have a parameter list (even if it is empty) and a function body (even if it is empty). The other parts will depend on the way the function is being declared.
 - [ ] Describe what is meant by a **function signature**
-  - Typically, a function signature is the combination of the name of the function and its parameter list.
+  - Typically, in languages like C#, a function signature is the combination of the name of the function and its parameter list. Languages which use that definition often allow something called *function overloading*.
+  - JavaScript only regards the *name* of the function as its signiture; function overloading is not possible in JavaScript (largely because it plays "fast and loose" with the parameters, because it allows us to use as many or as few arguments when calling the function).
 - [ ] Describe what is meant by the term **function body**
 - [ ] Define the term [**Block-statement**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block)
 - [ ] Define the term **parameter**
