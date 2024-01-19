@@ -77,10 +77,10 @@
       - Demo an anonymous handler for an event listener
 - [ ] **Homework:** Review the [Learn by Play](./src/005/ReadMe.md#learn-by-play) from [005](./src/005/ReadMe.md).
 
-> To grab a starting point for the demo, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte) to grab a copy of the demo folder from my workbook:
+> To grab a starting point for the demo, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte) to grab a copy of the demo folder from my workbook. Note that you will need to have `pnpm` installed and working on your computer. Run the following code in the terminal from the root of your repository:
 > 
 > ```bash
-> npx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland/src/008/demo-events ./src/008/demo-events
+> pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland/src/008/demo-events ./src/008/demo-events
 > ```
 >
 > ***Note:** You may need to <kbd>ctrl</kbd>+<kbd>c</kbd> to stop the `npx tiged` command after it has finished downloading the demo folder.*
