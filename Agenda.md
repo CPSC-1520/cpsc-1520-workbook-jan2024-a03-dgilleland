@@ -83,7 +83,7 @@
 > pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland/src/008/demo-events ./src/008/demo-events
 > ```
 >
-> ***Note:** You may need to <kbd>ctrl</kbd>+<kbd>c</kbd> to stop the `npx tiged` command after it has finished downloading the demo folder.*
+> ***Note:** You may need to <kbd>ctrl</kbd>+<kbd>c</kbd> to stop the `pnpm tlx tiged` command after it has finished downloading the demo folder.*
 
 ----
 
