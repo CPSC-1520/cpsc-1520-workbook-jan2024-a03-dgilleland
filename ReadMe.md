@@ -34,7 +34,7 @@ gantt
 
     section In-Class Labs/Exercises
     Lab 1, Jan 15  :     milestone, 2024-01-15, 0d
-    Lab 2, Jan 19  :     milestone, 2024-01-19, 0d
+    Lab 2, Jan 22  :     milestone, 2024-01-22, 0d
     Lab 3, Jan 26  :     milestone, 2024-01-26, 0d
     Lab 4, Feb 02  :     milestone, 2024-02-02, 0d
     Lab 5, Feb 16  :     milestone, 2024-02-16, 0d
