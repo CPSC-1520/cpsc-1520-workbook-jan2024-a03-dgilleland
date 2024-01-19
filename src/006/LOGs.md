@@ -3,7 +3,11 @@
 *At the end of this lesson, you should be able to...*
 
 - [ ] Identify and describe the various types of scope in JavaScript
-  - Scope (in JavaScript) refers to the visibility of variables. There are two types of scope: global and local.
+  - Scope (in JavaScript) refers to the visibility of variables. There are traditionally two types of scope: global and local.
+  - Global is where the variables are accessible/visible to all parts of our codebase.
+  - Local is where the variable is only visible/accessible to the local code block (typically, the function).
+    - *Hint:* Use `let` keyword to ensure block-level scope
+  - A third level of scope was introduced called **Module** scope. When we include our script with a `type="module"` attribute, then all of the variables declared in that JavaScript file are local to that file only (unless explicitly *exported*).
 - [ ] Explain why it is important to avoid "polluting the global scope"
   - Putting too many variables in the global scope can lead to naming conflicts and other problems.
   - This is especially true when working with other people's code. (For example, if you are using a library that has a variable named `x`, you don't want to use that same name for one of your variables.)
