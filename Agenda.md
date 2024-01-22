@@ -1,6 +1,6 @@
 # Agenda
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#nov-6-w10). For the timeline of where we are today, see [the current schedule](./ReadMe.md#schedule).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-24). For the timeline of where we are today, see [the current schedule](./ReadMe.md#schedule).
 >
 > ##### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -78,9 +78,9 @@
 - [ ] **Homework:** Review the [Learn by Play](./src/005/ReadMe.md#learn-by-play) from [005](./src/005/ReadMe.md).
 
 > To grab a starting point for the demo, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte) to grab a copy of the demo folder from my workbook. Note that you will need to have `pnpm` installed and working on your computer. Run the following code in the terminal from the root of your repository:
-> 
+>
 > ```bash
-> pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland/src/008/demo-events ./src/008/demo-events
+> pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/008/demo-events ./src/008/demo-events
 > ```
 >
 > ***Note:** You may need to <kbd>ctrl</kbd>+<kbd>c</kbd> to stop the `pnpm tlx tiged` command after it has finished downloading the demo folder.*
@@ -99,15 +99,35 @@
 ## Jan 24
 
 - [ ] Solution for Lab 2
+- [ ] Today's Lesson
+  - [**012**](./src/012/ReadMe.md) - Making Decisions
+    - Review [its LOGs](./src/012/LOGs.md)
+    - Nesting If-Else statements (using the [grammar demo](./src/012/demo-grammar/))
+    - Use decisions in form validation
+      - Use [this sample](https://chat.openai.com/share/7f9ac87e-8778-43b0-b9b8-dc1c4e8fe8a7)
+  - [**013**](./src/013/ReadMe.md) Forms
+- **Homework:**
+  - [**009**](./src/009/ReadMe.md) - Waiting for the DOM
+
+    ```bash
+    pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/009 ./src/009
+    ```
+
+  - [**010**](./src/010/ReadMe.md) - Debugging JavaScript
+
+    ```bash
+    pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/010 ./src/010
+    ```
+
+  - [**011**](./src/011/ReadMe.md) - Organizing Functions in JavaScript
+
+    ```bash
+    pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/011 ./src/011
+    ```
+
 
 
 ----
 
 ## Future
 
-- [x] Today's Lesson
-  - [**012**](./src/012/ReadMe.md) - Making Decisions
-    - Review [its LOGs](./src/012/LOGs.md)
-- **Homework:**
-  - [**009**](./src/009/ReadMe.md) - Waiting for the DOM
-  - [**010**](./src/010/ReadMe.md) - Debugging JavaScript
