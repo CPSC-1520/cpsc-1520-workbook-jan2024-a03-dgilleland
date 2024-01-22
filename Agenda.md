@@ -94,8 +94,17 @@
 ## Jan 22
 
 - [x] Here's another learning resource: https://javascript.info/
-- [x] Solution for Lab 2
-- [x] Solution for Lab 3
+- [ ] Release Lab 2
+
+## Jan 24
+
+- [ ] Solution for Lab 2
+
+
+----
+
+## Future
+
 - [x] Today's Lesson
   - [**012**](./src/012/ReadMe.md) - Making Decisions
     - Review [its LOGs](./src/012/LOGs.md)
