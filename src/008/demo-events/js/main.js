@@ -5,6 +5,7 @@ var featureImage = document.querySelector('img.feature');
 const handleFeatureClick = function () {
     console.log('img.feature was clicked...');
     var desc = document.querySelector('.feature.description');
+    // The next line will remove the CSS class `hidden` from the element
     desc.classList.remove('hidden');
 }
 
@@ -33,16 +34,20 @@ featureImage.addEventListener('mousemove', function (event) {
 });
 
 // 8. Let's listen for the mouseout event on the image and pop up an alert that says to the user "Don't go!".
+let showCount = 0;
 featureImage.addEventListener('mouseout', function (ev) {
     // alert('Don\'t go!');
     // Let's replace the alert with a custom modal dialog.
-    let dialog = document.querySelector('dialog');
-    dialog.showModal();
+    if(showCount == 0) {
+        let dialog = document.querySelector('dialog');
+        dialog.showModal();
+        showCount++;
 
-    // Oh, and let's explore the event object a little more...
-    // There is a property on the event object called target that tells us which element the event was fired on.
-    // For this method, we called our parameter "ev" but you can call it whatever you want.
-    ev.target.classList.add('image-blur');
+        // Oh, and let's explore the event object a little more...
+        // There is a property on the event object called target that tells us which element the event was fired on.
+        // For this method, we called our parameter "ev" but you can call it whatever you want.
+        ev.target.classList.add('image-blur');
+    }
 });
 
 // 9. Let's listen for the dialog's close event.
