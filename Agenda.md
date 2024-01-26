@@ -1,6 +1,6 @@
 # Agenda
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-24). For the timeline of where we are today, see [the current schedule](./ReadMe.md#schedule).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-26). For the timeline of where we are today, see [the current schedule](./ReadMe.md#schedule).
 >
 > ##### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -91,14 +91,17 @@
 
 ----
 
-## Jan 22
+## Jan 22 (W03)
 
 - [x] Here's another learning resource: https://javascript.info/
 - [ ] Release Lab 2
 
 ## Jan 24
 
-- [ ] Solution for Lab 2
+- [ ] *Work Period*
+
+## Jan 26
+
 - [ ] Today's Lesson
   - [**012**](./src/012/ReadMe.md) - Making Decisions
     - Review [its LOGs](./src/012/LOGs.md)
@@ -106,6 +109,7 @@
     - Use decisions in form validation
       - Use [this sample](https://chat.openai.com/share/7f9ac87e-8778-43b0-b9b8-dc1c4e8fe8a7)
   - [**013**](./src/013/ReadMe.md) Forms
+    - Also check out this on [Learning Web Forms](https://web.dev/learn/forms/)
 - **Homework:**
   - [**009**](./src/009/ReadMe.md) - Waiting for the DOM
 
@@ -125,7 +129,17 @@
     pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/011 ./src/011
     ```
 
+----
 
+## Jan 29 (W04)
+
+- [ ] In-Class Lab 3
+
+## Jan 31
+
+- [ ] Solutions for Lab 2 & 3
+
+## Feb 2
 
 ----
 
