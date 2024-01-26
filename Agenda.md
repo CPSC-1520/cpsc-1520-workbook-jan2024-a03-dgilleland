@@ -109,6 +109,11 @@
     - Use decisions in form validation
       - Use [this sample](https://chat.openai.com/share/7f9ac87e-8778-43b0-b9b8-dc1c4e8fe8a7)
   - [**013**](./src/013/ReadMe.md) Forms
+
+    ```bash
+    pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/013 ./src/013
+    ```
+
     - Also check out this on [Learning Web Forms](https://web.dev/learn/forms/)
 - **Homework:**
   - [**009**](./src/009/ReadMe.md) - Waiting for the DOM
