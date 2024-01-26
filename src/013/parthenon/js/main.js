@@ -22,6 +22,10 @@ document
         // We can access the form's input elements
         // through the form object.
         log(event.target.elements);
+        // The .elements property is a collection of all the form-related elements
+        // for that particular form DOM object.
+        // We can access any of those elements via the name attribute of that element.
+        // This is because forms are submitted as key-value (name-value) pairs,
         // ************************
         const theForm = event.target;
         const theTagInput = theForm.elements.tag;
