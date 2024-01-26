@@ -41,6 +41,8 @@ Logical Operators do a comparison between boolean values for `&&` and `||` opera
 -   **`||`** — "OR" operator - only one side needs to be true to get a true result
 -   **`!`** &mdash: "NOT" operator - inverts the true to a false and the false to a true
 
+![](./truthy.png)
+
 ----
 
 ## Demo-Trees ![Docs](https://img.shields.io/badge/Documentation%20Status-%7E10%25%20Minimal%20Outline-lightgrey?logo=Read%20the%20Docs)
