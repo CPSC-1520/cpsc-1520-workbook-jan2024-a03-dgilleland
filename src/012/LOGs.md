@@ -19,6 +19,16 @@
       statementOrStatementBlock
   ```
 
+  - When using statement blocks, the placement of curly braces is different than what you might be used to in C#.
+
+  ```js
+  if(conditionalExpression) {
+      // zero or more statements
+  } else {
+      // zero or more statements
+  }
+  ```
+
 - [x] Compare and contrast the `===` and `!==` operators with the `==` and `!=` operators
 - [x] List and describe the purpose of the relational and equality operators in javaScript
 - [x] Describe what is meant by a "conditional expression"
