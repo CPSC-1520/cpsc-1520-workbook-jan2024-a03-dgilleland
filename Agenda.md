@@ -146,6 +146,9 @@
 
 ## Feb 2
 
+- [ ] In-Class Lab 4
+  - *Intro to the In-Class Lab 4*
+
 ----
 
 ## Future
