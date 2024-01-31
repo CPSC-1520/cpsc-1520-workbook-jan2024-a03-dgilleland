@@ -142,7 +142,7 @@
 
 ## Jan 31
 
-- [ ] Solutions for Lab 2 & 3
+- [ ] [Shipping Calculator](./src/013/shipping-calculator/Readme.md)
 
 ## Feb 2
 
