@@ -151,5 +151,16 @@
 
 ----
 
+## Feb 5 (W05)
+
+- [ ] [015](./src/015/ReadMe.md) Intro to Loops
+
+    ```bash
+    pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/015 ./src/015
+    ```
+
+
+
+
 ## Future
 
