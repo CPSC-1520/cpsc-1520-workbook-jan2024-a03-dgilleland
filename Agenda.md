@@ -163,7 +163,7 @@
 
 ## Feb 7
 
-- [ ] [016](./src/016/ReadMe.md) Intro to Loops
+- [ ] [016](./src/016/ReadMe.md) Intro to Arrays
 
     ```bash
     pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/016 ./src/016
