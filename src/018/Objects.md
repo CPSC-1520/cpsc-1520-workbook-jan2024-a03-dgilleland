@@ -2,7 +2,7 @@
 
 ## Object Orientation
 
-> To follow along with this exercise, you will need to download and un-zip this [starter kit](.zip).
+> - [ ] **TODO:** Reference the starter code needed for this discussion.
 
 JavaScript is an object-based scripting language and to this point we have made use of many of the built-in and available objects the language defines. However, sometimes the available objects are not well-suited for the task you need to carry out. In cases such as these you can extend the existing objects or even create your own custom objects.
 
