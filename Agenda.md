@@ -169,6 +169,18 @@
     pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/016 ./src/016
     ```
 
+----
+
+
+## Feb 26
+
+- [ ] [018](./src/018/ReadMe.md) Intro to JavaScript Objects (in their various forms)
+  - [ ] Object Literals
+  - [ ] 
+
+    ```bash
+    pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/018 ./dan/018
+    ```
 
 
 
