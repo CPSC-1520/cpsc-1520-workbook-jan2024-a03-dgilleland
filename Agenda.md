@@ -176,12 +176,24 @@
 
 - [ ] [018](./src/018/ReadMe.md) Intro to JavaScript Objects (in their various forms)
   - [ ] Object Literals
-  - [ ] 
 
     ```bash
     pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/018 ./dan/018
     ```
 
+## Feb 28
+
+- [ ] In-Class 5
+
+## Mar 1
+
+- [ ] More on JavaScript objects (primarily in the Node terminal)
+  - [ ] [Object Literals and `get`/`set` methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_getters_and_setters)
+  - [ ] [Creating Objects using Constructor Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#using_a_constructor_function)
+  - [ ] **Prototypical Inheritance in JS:** [Adding Properties to Existing Objects through the Prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#inheritance)
+- [ ] **Homework:**
+  - [ ] Read about the [`this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#using_this_for_object_references) keyword to understand its relationship to objects in JavaScript
+  - [ ] Read about [comparing objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#comparing_objects) to appreciate how objects in JavaScript are reference types
 
 
 ## Future
