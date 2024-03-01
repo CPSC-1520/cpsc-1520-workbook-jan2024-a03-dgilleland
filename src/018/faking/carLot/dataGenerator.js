@@ -2,6 +2,20 @@ import { Faker, en } from 'https://esm.sh/@faker-js/faker';
 
 let faker;
 
+const Vehicle = function(type, vin, license, color, odometer) {
+    this.type = type;
+    this.vin = vin;
+    this.license = license;
+    this.color = color;
+    this.odometer = odometer;
+    this.testDrive = function(distance) {
+        const change = parseInt(distance);
+        if(!isNaN(change))
+            this.odometer += change;
+        return change;
+    }
+}
+
 const generateVehicle = function() {
     // Return a random vehicle as an object literal
     return {
@@ -47,4 +61,6 @@ const injectTableData = function(element, seed) {
     element.innerHTML = `<table>${data}</table>`;
 }
 
-export { injectTableData };
+// I will make public only the exported items from
+// this JavaScript module file
+export { injectTableData, Vehicle };

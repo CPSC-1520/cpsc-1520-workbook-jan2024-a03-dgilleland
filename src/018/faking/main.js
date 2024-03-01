@@ -1,4 +1,4 @@
-import { injectTableData } from './carLot/dataGenerator.js'
+import { injectTableData, Vehicle } from './carLot/dataGenerator.js';
 
 const log = console.log;
 
@@ -35,3 +35,22 @@ injectTableData(carLot, seed);
 
 dropDown.addEventListener('change', changeSeed);
 
+document.getElementById('addVehicleform').addEventListener('submit', function(ev){
+    ev.preventDefault();
+    const form = ev.target;
+    const typeInput = form.elements['type'];
+    const licenseInput = form.elements['license'];
+    const vinInput = form.elements['vin'];
+    const colorInput = form.elements['color'];
+    const mileageInput = form.elements['mileage'];
+
+    const newCar = new Vehicle(typeInput.value, vinInput.value, licenseInput.value, colorInput.value, mileageInput.value);
+    // TODO: Add this into my carLot table
+    console.table(newCar);
+    // Clear all my inputs
+    typeInput.value = "";
+    licenseInput.value = "";
+    vinInput.value = "";
+    colorInput.value = "";
+    mileageInput.value = "";
+});
