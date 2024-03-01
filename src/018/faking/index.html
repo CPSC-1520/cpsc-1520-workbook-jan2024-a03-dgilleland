@@ -9,11 +9,22 @@
 <body>
     <h1>Honest Joe's Used and Stolen Car Lot</h1>
     <output id="carLot">
-        <table><tr><td>Hello</td></tr></table>
+        <table><tr><td>Loading...</td></tr></table>
     </output>
     <footer>
         <hr />
-        <p>Note: Fake data generated with <a rel="noopener" href="https://fakerjs.dev/" target="_blank">Faker</a> (an NPM package).</p>
+        <p>
+            Note: Fake data generated with <a rel="noopener" href="https://fakerjs.dev/" target="_blank">Faker</a> (an NPM package).
+            <label title="Disabled at present, because it is not working as expected">
+                Seed for Data Generation:
+                <select name="faker-seed" id="faker-seed" disabled>
+                    <option value="">[none]</option>
+                    <option value="7">7</option>
+                    <option value="42">42</option>
+                    <option value="2024">2024</option>
+                </select>
+            </label>
+        </p>
     </footer>
 </body>
 </html>

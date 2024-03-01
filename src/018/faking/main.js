@@ -1,48 +1,37 @@
-import { faker } from 'https://esm.sh/@faker-js/faker';
+import { injectTableData } from './carLot/dataGenerator.js'
 
 const log = console.log;
 
-const generateVehicle = function() {
-    // Return a random vehicle as an object literal
-    return {
-        type: faker.vehicle.vehicle(),
-        vin: faker.vehicle.vin(),
-        license: faker.vehicle.vrm(),
-        color: faker.vehicle.color(),
-        odometer: faker.string.numeric({ length: 6, allowLeadingZeros: true })
-    }
-};
-// console.table(generateVehicle());
+// TODO: Disabled until I can figure out how to get the seed working
+//       consistently. Apparently, the seed can be used to get consisten
+//       data, BUT the specs (https://fakerjs.dev/api/faker.html#seed) say
+//          "... generated values are dependent on both the seed
+//           and the number of calls that have been made since it was set."
+//       See docs here: https://fakerjs.dev/guide/
+const changeSeed = function(ev) {
+    const currentSeed = ev.target.value
+    log(`Regenerating data with seed: '${currentSeed}'`);
 
-const generateLot = function(max, seed) {
-    if(seed) faker.seed(seed);
-    const lot = [];
-    for(var count = 0; count < max; count++) {
-        lot.push(generateVehicle());
-    }
-    return lot;
+    // Get the current URL
+    const url = new URL(location.href);
+
+    // Set the desired query parameter
+    if(currentSeed)
+        url.searchParams.set('seed', currentSeed);
+
+    // Reload the page with the updated query string
+    location.assign(url.search);
 }
+
+const urlParams = new URLSearchParams(window.location.search);
+const seed = urlParams.get('seed');
+log(`querystring seed=${seed}`);
+
+const dropDown = document.getElementById('faker-seed');
+if(seed)
+    dropDown.value = seed;
 const carLot = document.getElementById('carLot');
+injectTableData(carLot, seed);
 
-// TODO: Create a tabular presentation of all the cars in the car lot, displaying each cars information.
+dropDown.addEventListener('change', changeSeed);
 
-// Ideas:
-// - Use a template string for each row
-// - Use a template string for the header row
-// - Refactor the code to make it "clean"
-const generateTable = function(seed) {
-    const lot = generateLot(10, seed);
-    const htmlRows = lot.map(function(vehicle, index){
-        return `<tr>
-    <td>${vehicle.type}</td>
-    <td>${vehicle.vin}</td>
-    <td>${vehicle.license}</td>
-    <td>${vehicle.color}</td>
-    <td>${vehicle.odometer}</td>
-</tr>`;
-    });
-    return htmlRows.join('\n');
-}
-const data = generateTable(42);
-log(data);
-carLot.innerHTML = `<table>${data}</table>`;
