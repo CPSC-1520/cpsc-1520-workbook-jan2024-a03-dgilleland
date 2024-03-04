@@ -201,6 +201,10 @@
 
 ## Mar 5
 
+```bash
+pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/019 ./dan/019
+```
+
 - [ ] JSON and JavaScript Objects
   - [ ] Explore via the `node` environment in the terminal
   - [ ] A note on the `fs` module in Node
@@ -210,10 +214,6 @@
 - [ ] A word on [Arrow Functions](./src/019/ReadMe.md#arrow-functions)
 - [ ] A quick-n-plain Node package using `vite`
   - [ ] Why we need a Web Server for `fetch`
-
-  ```bash
-  pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/019 ./dan/019
-  ```
 
 
 ## Future
