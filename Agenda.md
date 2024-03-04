@@ -202,7 +202,7 @@
 ## Mar 5
 
 ```bash
-pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/019 ./dan/019
+pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/019 ./src/019
 ```
 
 - [ ] JSON and JavaScript Objects
