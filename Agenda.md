@@ -185,6 +185,8 @@
 
 - [ ] In-Class 5
 
+----
+
 ## Mar 1
 
 - [ ] More on JavaScript objects (primarily in the Node terminal)
@@ -194,6 +196,24 @@
 - [ ] **Homework:**
   - [ ] Read about the [`this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#using_this_for_object_references) keyword to understand its relationship to objects in JavaScript
   - [ ] Read about [comparing objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#comparing_objects) to appreciate how objects in JavaScript are reference types
+
+----
+
+## Mar 5
+
+- [ ] JSON and JavaScript Objects
+  - [ ] Explore via the `node` environment in the terminal
+  - [ ] A note on the `fs` module in Node
+- [ ] Intro to the Fetch API
+  - [ ] Web APIs and JSON responses
+  - [ ] What is the Fetch API?
+- [ ] A word on [Arrow Functions](./src/019/ReadMe.md#arrow-functions)
+- [ ] A quick-n-plain Node package using `vite`
+  - [ ] Why we need a Web Server for `fetch`
+
+  ```bash
+  pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/019 ./dan/019
+  ```
 
 
 ## Future
