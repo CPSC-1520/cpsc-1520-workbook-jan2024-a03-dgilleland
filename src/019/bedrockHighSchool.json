@@ -1,0 +1,29 @@
+[
+  {
+    "firstName": "Fred",
+    "lastName": "Flintstone",
+    "birthday": "1961-05-01T07:00:00.000Z",
+    "girlfriend": {
+      "firstName": "Wilma",
+      "lastName": "Slaghoople",
+      "birthday": "1963-08-16T07:00:00.000Z",
+      "boyfriend": null
+    }
+  },
+  {
+    "firstName": "Barney",
+    "lastName": "Rubble",
+    "birthday": "1960-02-29T07:00:00.000Z"
+  },
+  {
+    "firstName": "Wilma",
+    "lastName": "Slaghoople",
+    "birthday": "1963-08-16T07:00:00.000Z",
+    "boyfriend": null
+  },
+  {
+    "firstName": "Betty",
+    "lastName": "McBricker",
+    "birthday": "1963-10-13T07:00:00.000Z"
+  }
+]
