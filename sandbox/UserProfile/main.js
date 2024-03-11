@@ -1,5 +1,5 @@
 import "clam.css"; // Import the Clam CSS framework
-
+import * as L from "leaflet"; // Import the Leaflet library
 // ad-hoc coding
 
 const Person = function(profile) {
@@ -19,6 +19,31 @@ const assignRandomUserAsync = async function() {
     })
     .catch(error => console.error(error));
   return temp;
+}
+let map;
+let marker;
+const zoom = 13; // e.g.: 5, 8, 13
+const loadMap = function(lat, long) {
+  // This is a placeholder function for loading a map
+  console.log(`Loading map at lat: ${lat}, long: ${long}`);
+
+  if(map == undefined) {
+    map = L.map('map');
+    map.setView([lat, long], zoom);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    marker = L.marker([lat, long]).addTo(map);
+  } else {
+    // NOTE: Still buggy - not resetting the map view
+    map.invalidateSize();
+    // map.off();
+    map.flyTo([lat, long], zoom);
+    marker.remove();
+    marker = L.marker([lat, long]).addTo(map);
+  }
+  marker.bindPopup(`<b>Latitude:</b> ${lat}<br><b>Longitude:</b> ${long}`)
+  .openPopup();
 }
 
 
@@ -40,5 +65,6 @@ newUserButton.addEventListener('click', async function() {
       <p>${user.profile.email}</p>
       <p>${user.profile.location.city}, ${user.profile.location.state}</p>
     `;
+    loadMap(user.profile.location.coordinates.latitude, user.profile.location.coordinates.longitude);
   }
 });
