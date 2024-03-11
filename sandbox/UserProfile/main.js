@@ -1,6 +1,29 @@
 import "clam.css"; // Import the Clam CSS framework
 import * as L from "leaflet"; // Import the Leaflet library
 // ad-hoc coding
+let currentRandomUser; // This is a "global" (module-level) variable that will be used to store the current random user
+
+const saveUserProfile = function(user) {
+  // Create an <li> element with the user's name and an image
+  // using the DOM API
+  const li = document.createElement('li');
+  const img = document.createElement('img');
+  img.src = user.profile.picture.thumbnail;
+  img.alt = `${user.profile.name.first} ${user.profile.name.last}`;
+  li.appendChild(img);
+  const text = document.createTextNode(`${user.profile.name.first} ${user.profile.name.last}`);
+  li.appendChild(text);
+  document.getElementById('saved-profiles').appendChild(li);
+}
+
+const saveUserButton = document.getElementById('save-user');
+saveUserButton.addEventListener('click', function() {
+  if(currentRandomUser === undefined) {
+    alert('No user to save');
+  } else {
+    saveUserProfile(currentRandomUser);
+  }
+});
 
 const Person = function(profile) {
   this.profile = profile;
@@ -52,21 +75,21 @@ const loadMap = function(lat, long) {
 const newUserButton = document.getElementById('new-user');
 newUserButton.addEventListener('click', async function() {
   // The await keyword is used to paush the execution of the function until the promise is resolved. You can only use await keywords on async functions AND you must have the containing function be async as well.
-  let user = await assignRandomUserAsync();
-  console.log(user);
+  currentRandomUser = await assignRandomUserAsync();
+  console.log(currentRandomUser);
   const userCard = document.getElementById('user-info');
   console.log(userCard);
-  if(user === undefined) {
+  if(currentRandomUser === undefined) {
     userCard.innerHTML = `<h2>Failed to fetch user</h2>`;
     return;
   } else {
     // I am using a template literal string to create the HTML as a string. When I put the string into the .innerHTML of my userCard, the browser will parse the string and create the elements for me.
     userCard.innerHTML = `
-      <img src="${user.profile.picture.large}" alt="profile picture">
-      <h2>${user.profile.name.first} ${user.profile.name.last}</h2>
-      <p>${user.profile.email}</p>
-      <p>${user.profile.location.city}, ${user.profile.location.state}</p>
+      <img src="${currentRandomUser.profile.picture.large}" alt="profile picture">
+      <h2>${currentRandomUser.profile.name.first} ${currentRandomUser.profile.name.last}</h2>
+      <p>${currentRandomUser.profile.email}</p>
+      <p>${currentRandomUser.profile.location.city}, ${currentRandomUser.profile.location.state}</p>
     `;
-    loadMap(user.profile.location.coordinates.latitude, user.profile.location.coordinates.longitude);
+    loadMap(currentRandomUser.profile.location.coordinates.latitude, currentRandomUser.profile.location.coordinates.longitude);
   }
 });
