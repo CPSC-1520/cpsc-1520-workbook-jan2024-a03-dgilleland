@@ -9,6 +9,19 @@
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
      crossorigin=""/>
     <script type="module" src="/main.js"></script>
+    <style>
+      #map { height: 180px; }
+      body {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        column-gap: 1em;
+      }
+      aside img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+      }
+    </style>
   </head>
   <body>
     <main>
@@ -22,6 +35,7 @@
         <h1>Hello Vite!</h1>
         <div>
           <button id="new-user" type="button">New Random Profile</button>
+          <button id="save-user" type="button">Save Profile</button>
         </div>
         <p class="read-the-docs">
           Click on the Vite logo to learn more
@@ -31,9 +45,13 @@
 
       </article>
       <section id="map"></section>
-      <style>
-        #map { height: 180px; }
-      </style>
     </main>
+    <aside>
+      <article>
+        <h2>Saved Profiles</h2>
+        <ul id="saved-profiles">
+          <li><img src="https://randomuser.me/api/portraits/thumb/women/82.jpg" />John Doe</li>
+      </article>
+    </aside>
   </body>
 </html>
