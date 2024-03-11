@@ -20,9 +20,12 @@ const assignRandomUserAsync = async function() {
     .catch(error => console.error(error));
   return temp;
 }
+
+// Leaflet map constants
 let map;
 let marker;
 const zoom = 13; // e.g.: 5, 8, 13
+
 const loadMap = function(lat, long) {
   // This is a placeholder function for loading a map
   console.log(`Loading map at lat: ${lat}, long: ${long}`);
@@ -37,7 +40,6 @@ const loadMap = function(lat, long) {
   } else {
     // NOTE: Still buggy - not resetting the map view
     map.invalidateSize();
-    // map.off();
     map.flyTo([lat, long], zoom);
     marker.remove();
     marker = L.marker([lat, long]).addTo(map);
