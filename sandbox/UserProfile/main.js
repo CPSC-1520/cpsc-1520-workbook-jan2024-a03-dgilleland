@@ -12,7 +12,7 @@ const Person = function(profile) {
  */
 const assignRandomUserAsync = async function() {
   let temp;
-  await fetch('https://randomuser.me/apii/')
+  await fetch('https://randomuser.me/api/')
     .then(response => response.json())
     .then(data => {
       temp = new Person(data.results[0]);
