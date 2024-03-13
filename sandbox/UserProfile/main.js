@@ -13,6 +13,11 @@ const saveUserProfile = function(user) {
   li.appendChild(img);
   const text = document.createTextNode(`${user.profile.name.first} ${user.profile.name.last}`);
   li.appendChild(text);
+  // Add some data attributes to the <li> element as "metadata" on the user
+  li.dataset.firstName = user.profile.name.first;
+  li.dataset.lastName = user.profile.name.last;
+  li.dataset.email = user.profile.email;
+  li.dataset.fullProfile = JSON.stringify(user.profile);
   document.getElementById('saved-profiles').appendChild(li);
 }
 
