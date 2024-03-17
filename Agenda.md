@@ -249,6 +249,7 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
 ## Mar 18
 
 - [ ] Timeouts and Intervals in JavaScript
+- [ ] [DOM API Demo/Practice](./src/025/ReadMe.md)
 
 ## Mar 20
 
