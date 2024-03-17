@@ -248,7 +248,12 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
 
 ## Mar 18
 
-- [ ] Timeouts and Intervals in JavaScript
+- [ ] Timeouts and Intervals in JavaScript - [024](./src/024/ReadMe.md)
+  - [ ] What are Timeouts?
+  - [ ] What are Intervals?
+  - [ ] How to start Timeouts/Intervals?
+  - [ ] How to stop Timeouts/Intervals?
+  - [ ] StopWatch 2.0 is kinda good
 - [ ] [DOM API Demo/Practice](./src/025/ReadMe.md)
 
 ## Mar 20
