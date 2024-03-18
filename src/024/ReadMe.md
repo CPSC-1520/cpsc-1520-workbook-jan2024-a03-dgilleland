@@ -3,7 +3,9 @@
 ## Readings
 
 - [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
-- [JavaScript Timers](https://developer.mozilla.org/en-US/docs/Archive/Add-ons/Code_snippets/Timers) -
+- JavaScript Timers
+  - [`setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
+  - [`setInterval`](https://developer.mozilla.org/en-US/docs/Web/API/setInterval)
 - [JavaScript Ternary Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) -
 
 ----
