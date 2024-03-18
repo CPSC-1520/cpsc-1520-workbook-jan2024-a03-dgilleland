@@ -248,6 +248,10 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
 
 ## Mar 18
 
+```bash
+pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/024 ./src/024
+```
+
 - [ ] Timeouts and Intervals in JavaScript - [024](./src/024/ReadMe.md)
   - [ ] What are Timeouts?
   - [ ] What are Intervals?
@@ -255,6 +259,10 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
   - [ ] How to stop Timeouts/Intervals?
   - [ ] StopWatch 2.0 is kinda good
 - [ ] [DOM API Demo/Practice](./src/025/ReadMe.md)
+
+```bash
+pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/025 ./src/025
+```
 
 ## Mar 20
 
