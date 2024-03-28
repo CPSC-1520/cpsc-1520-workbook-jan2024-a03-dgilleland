@@ -11,3 +11,27 @@ pnpm create vite@latest
 ```
 
 Then, the existing boiler-plate code in the project was stripped down to have our more "traditional" HTML/JavaScript setup. The HTML page presented is based off of the 3rd-party source for our JSON data: [RandomUser.md](https://randomuser.me).
+
+All existing styling was stripped from the project, and a Classless-CSS stylesheet ([Clam.css](https://www.npmjs.com/package/clam.css)) was introduced as a Node package and applied to the site via an `import 'clam.css';` in the `main.js` file.
+
+
+----
+
+## Appendix
+
+Copilot Discussions
+
+
+![Me](./Copilot-Me.png)
+
+
+
+![AI](./Copilot-AI.png)
+
+
+
+----
+
+> Verified responses are indicated with a :100: emoji - `:100:`.
+>
+> For additional emojis, check out [Emojis Wiki](https://emojis.wiki/). For symbols that can be copied, check out [Symbol Copy](https://www.symbolcopy.com/)

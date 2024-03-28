@@ -23,3 +23,8 @@ const showDate = function(thisDate) {
 };
 const output = document.getElementById('thisDate');
 showDate(output);
+
+document.querySelector('button').addEventListener('click', function(ev) {
+    const rightNow = new Date();
+    console.log("The current time is:", rightNow);
+})

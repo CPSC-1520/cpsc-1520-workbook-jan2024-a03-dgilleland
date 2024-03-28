@@ -4,10 +4,31 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Fast-Track 1520</title>
+    <script type="module" src="/main.js"></script>
   </head>
   <body>
+    <article>
+      
+    </article>
     <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div class="card">
+      <div class="details">
+        <div class="user_photo horizontal_center" id="user_photo">
+          <a href="javascript:getNewUser();" class="refresh">New</a>
+          <img src="https://randomuser.me/api/portraits/women/53.jpg" alt="photo">
+        </div>
+        <p id="user_title">My phone number is</p>
+        <p id="user_value" style="text-transform: capitalize;">(246) 667-9763</p>
+      </div>
+      <ul class="values_list horizontal_center" id="values_list">
+        <li data-title="Hi, My name is" data-value="Hilda Prescott" data-label="name" class="  "></li>
+        <li data-title="My email address is" data-value="hilda.prescott@example.com" data-label="email" data-caps="false" class="  "></li>
+        <li data-title="My birthday is" data-value="5/7/1990" data-label="birthday" class="  "></li>
+        <li data-title="My address is" data-value="6373 Groveland Terrace" data-label="location" class="  "></li>
+        <li data-title="My phone number is" data-value="(246) 667-9763" data-label="phone" class="   active"></li>
+        <li data-title="My password is" data-value="butter" data-label="pass" data-caps="false" class="   "></li>
+      </ul>
+    </div>
   </body>
 </html>
