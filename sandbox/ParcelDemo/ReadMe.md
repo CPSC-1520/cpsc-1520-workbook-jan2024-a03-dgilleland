@@ -24,6 +24,8 @@ We'll modify our `package.json` file so that it identifies a `"source": "index.h
 }
 ```
 
-Add your main.js to your HTML
+Add your main.js to your HTML. Then, inside your main.js, add the following line.
 
+```js
 import 'boostrap/dist/css/bootstrap.min.css';
+```
