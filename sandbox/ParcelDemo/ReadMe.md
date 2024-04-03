@@ -14,7 +14,7 @@ pnpm i bootstrap
 pnpm i parcel --save-dev
 ```
 
-We'll modfy our `package.json` file so that it identifies a `"source": "index.html"` in place of the "main" entry point for our app. We'll also include a couple of scripts to run our app using `parcel`.
+We'll modify our `package.json` file so that it identifies a `"source": "index.html"` in place of the "main" entry point for our app. We'll also include a couple of scripts to run our app using `parcel`.
 
 ```json
 "source": "index.html",
