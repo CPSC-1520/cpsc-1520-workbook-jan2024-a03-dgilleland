@@ -301,7 +301,7 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
 
 ## Apr 3
 
-- [ ] *TBD*
+- [ ] Node Project - `parcel`
 
 
 ## Apr 5
@@ -314,7 +314,8 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
 
 ## Apr 8
 
-- [ ] *TBD*
+- [ ] JavaScript Classes and Prototypes
+- [ ] Vitest
 
 
 ## Apr 10
