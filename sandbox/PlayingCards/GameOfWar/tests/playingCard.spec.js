@@ -24,11 +24,28 @@ it.each(['Heats', 'Club', 'Pokemon'])
     expect(act).toThrow();
 });
 
-it.skip('PlayingCard should accept the numeric values of 2 through 10', () => {});
+it.each([2, 3, 4, 5, 6, 7, 8, 9, 10])
+('PlayingCard should accept the numeric value of %i', (givenValue) => {
+    const sut = new PlayingCard(givenValue, 'clubs');
+    expect(sut.value).toBe(givenValue);
+});
 
-it.skip('PlayingCard should accept the text values of ace, jack, queen, and king', () => {});
+it.each(['ace', 'jack', 'queen', 'king'])
+('PlayingCard should accept the text value of %s', (givenValue) => {
+    const sut = new PlayingCard(givenValue, 'diamonds');
+    expect(sut.value).toBe(givenValue);
+});
 
-it.skip('PlayingCard should accept the numeric equal to ace, jack, queen, and king', () => {});
+it.each([
+    { value: 1, name: 'Ace' },
+    { value: 11, name: 'Jack' },
+    { value: 12, name: 'Queen' },
+    { value: 13, name: 'King' }
+])
+('PlayingCard should accept the number $value to equal $name', ({value, name}) => {
+    const sut = new PlayingCard(value, 'hearts');
+    expect(sut.value).toBe(name);
+});
 
 it.skip('PlayingCard should reject an invalid value', () => {});
 
