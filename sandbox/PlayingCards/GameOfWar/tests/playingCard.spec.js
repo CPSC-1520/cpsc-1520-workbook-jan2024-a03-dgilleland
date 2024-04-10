@@ -30,7 +30,7 @@ it.each([2, 3, 4, 5, 6, 7, 8, 9, 10])
     expect(sut.value).toBe(givenValue);
 });
 
-it.each(['ace', 'jack', 'queen', 'king'])
+it.each(['Ace', 'Jack', 'Queen', 'King'])
 ('PlayingCard should accept the text value of %s', (givenValue) => {
     const sut = new PlayingCard(givenValue, 'diamonds');
     expect(sut.value).toBe(givenValue);
@@ -47,5 +47,15 @@ it.each([
     expect(sut.value).toBe(name);
 });
 
-it.skip('PlayingCard should reject an invalid value', () => {});
+it.each([
+    'One', 0, 14, 'Bob'
+])
+('PlayingCard should reject an invalid value %s', (badCardValue) => {
+    const act = () => new PlayingCard(badCardValue, 'Hearts');
+    expect(act).toThrow();
+});
 
+it('PlayingCard should correct the spelling of ace to Ace', () => {
+    const sut = new PlayingCard('ace', 'hearts');
+    expect(sut.value).toBe('Ace');
+});
