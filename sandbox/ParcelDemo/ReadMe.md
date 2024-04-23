@@ -29,3 +29,10 @@ Add your main.js to your HTML. Then, inside your main.js, add the following line
 ```js
 import 'boostrap/dist/css/bootstrap.min.css';
 ```
+
+Now you can run your node script to start the parcel bundler/server to see your page. In the terminal, run the following command.
+
+```ps
+pnpm run start
+```
+
