@@ -4,3 +4,4 @@
 
 - [ ] Demonstrate the ability to intercept keyboard events in the browser
 - [ ] Explain how to prevent the default behaviour of events
+- [ ] Explain how to prevent events from bubbling up the DOM tree
